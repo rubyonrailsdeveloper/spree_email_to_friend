@@ -1,0 +1,30 @@
+---
+# Too picky.
+Metrics/LineLength:
+  Max: 150
+
+# This should truly be on for well documented gems.
+Style/Documentation:
+  Enabled: false
+
+# Neatly aligned code is too swell.
+Style/SingleSpaceBeforeFirstArg:
+  Enabled: false
+
+# Don't mess with RSpec DSL.
+Style/BlockDelimiters:
+  Exclude:
+    - 'spec/**/*'
+
+# Single quotes are default in Rubocop.
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+
+Style/SignalException:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/SpaceAroundOperators:
+  Enabled: false
